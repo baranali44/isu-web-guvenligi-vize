@@ -375,6 +375,10 @@ Metasploit'in RPC API'si (`msfrpcd`) üç kimlik doğrulama yöntemi sunar:
 3. **SSRF:** Web arayüzü üzerinden iç ağ RPC servisine yönlendirme
 4. **Gem zehirlenmesi (Supply Chain):** `Gemfile.lock` bypass edilerek zararlı gem sürümü yüklenmesi
 
+
+
+Ayrıca projeye, Metasploit'in web sunucularına yaptığı saldırıları (PHP CGI, Web Shell, Struts) Nginx/Apache loglarından tespit eden özgün bir 'Web Log Forensics (MSF-Hunter)' aracı eklenmiştir. Otomatik çalışan kodun demo videosu demo/ dizinindedir
+
 ---
 
 ## Genel Güvenlik Özeti
